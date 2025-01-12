@@ -28,7 +28,7 @@ class KanyeQuotesApp:
         self.quote_label.pack(pady=50) # the pack method positions the Label in the GUI by adding 50px of padding(space) above and below it
         
         # Load the image
-        self.kanye_image = Image.open("img/kanye.png")
+        self.kanye_image = Image.open("/Users/rloredon/Development/api-with-python/kanye-quotes-app/src/img/kanye.png")
         self.kanye_image = self.kanye_image.resize((100, 100))
         self.kanye_photo = ImageTk.PhotoImage(self.kanye_image)
 
